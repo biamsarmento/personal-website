@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FAF8F5;
+  color: #2D1A18;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  .animation-delay-6000 {
+    animation-delay: 6s;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-blush-300 hover:bg-blush-400 text-white font-dm font-medium px-7 py-3 rounded-full transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 cursor-pointer;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 border-2 border-blush-300 text-blush-400 hover:bg-blush-50 font-dm font-medium px-7 py-3 rounded-full transition-all duration-300 hover:-translate-y-0.5 cursor-pointer;
+  }
+  .section-label {
+    @apply text-sage-500 text-xs font-dm font-semibold tracking-[0.2em] uppercase mb-3;
+  }
+  .section-title {
+    @apply font-playfair text-4xl lg:text-5xl font-bold text-espresso leading-tight;
+  }
+  .section-divider {
+    @apply h-1 w-16 bg-gradient-to-r from-blush-300 to-sage-300 rounded-full;
+  }
+  .skill-pill {
+    @apply text-xs font-dm font-medium px-3 py-1.5 rounded-full border;
+  }
+}
