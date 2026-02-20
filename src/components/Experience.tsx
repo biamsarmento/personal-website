@@ -67,7 +67,6 @@ export default function Experience() {
         >
           <p className="section-label">Where I&apos;ve worked</p>
           <h2 className="section-title mb-4">Experience</h2>
-          <div className="section-divider mx-auto" />
         </motion.div>
 
         {/* Timeline */}

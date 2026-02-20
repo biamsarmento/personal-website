@@ -64,7 +64,6 @@ export default function Education() {
         >
           <p className="section-label">Academic background</p>
           <h2 className="section-title mb-4">Education</h2>
-          <div className="section-divider mx-auto" />
         </motion.div>
 
         {/* Cards */}

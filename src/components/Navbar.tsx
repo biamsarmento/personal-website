@@ -39,7 +39,7 @@ export default function Navbar() {
             href="#home"
             className="font-playfair text-2xl italic font-bold text-espresso hover:text-blush-400 transition-colors duration-300"
           >
-            bea.
+            bia.
           </a>
 
           {/* Desktop Links */}
@@ -98,7 +98,10 @@ export default function Navbar() {
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"
         }`}
-        style={{ backgroundColor: "rgba(13, 6, 8, 0.97)", backdropFilter: "blur(12px)" }}
+        style={{
+          backgroundColor: "rgba(13, 6, 8, 0.97)",
+          backdropFilter: "blur(12px)",
+        }}
       >
         <ul className="flex flex-col items-center gap-7">
           {navLinks.map((link, i) => (
@@ -106,7 +109,9 @@ export default function Navbar() {
               key={link.href}
               style={{ transitionDelay: `${i * 60}ms` }}
               className={`transition-all duration-300 ${
-                menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                menuOpen
+                  ? "opacity-100 translate-y-0"
+                  : "opacity-0 translate-y-4"
               }`}
             >
               <a

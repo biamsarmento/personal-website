@@ -72,7 +72,6 @@ export default function Projects() {
         >
           <p className="section-label">Things I&apos;ve built</p>
           <h2 className="section-title mb-4">Featured Projects</h2>
-          <div className="section-divider mx-auto" />
         </motion.div>
 
         {/* Cards */}
@@ -89,9 +88,6 @@ export default function Projects() {
               variants={item}
               className="group bg-mocha-100 rounded-3xl border border-mocha-200 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1.5 transition-all duration-300"
             >
-              {/* Accent gradient bar */}
-              <div className={`h-1.5 bg-gradient-to-r ${project.accent}`} />
-
               <div className="p-7">
                 <div className="flex items-start justify-between gap-4 mb-3">
                   <h3 className="font-playfair font-bold text-xl text-espresso leading-snug">

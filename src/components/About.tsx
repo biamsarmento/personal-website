@@ -44,7 +44,6 @@ export default function About() {
         >
           <p className="section-label">Get to know me</p>
           <h2 className="section-title mb-4">About Me</h2>
-          <div className="section-divider mx-auto" />
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">

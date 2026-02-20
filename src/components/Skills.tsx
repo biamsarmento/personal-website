@@ -72,7 +72,6 @@ export default function Skills() {
         >
           <p className="section-label">What I work with</p>
           <h2 className="section-title mb-4">My Skills</h2>
-          <div className="section-divider mx-auto" />
         </motion.div>
 
         {/* Cards */}
