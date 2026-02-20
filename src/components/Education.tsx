@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 const education = [
   {
     school: "University of Brasília (UnB)",
-    flag: "🇧🇷",
     degree: "B.Sc. in Network Engineering",
     period: "Mar 2018 — Feb 2025",
     highlights: ["Honor Student"],
@@ -13,7 +12,6 @@ const education = [
   },
   {
     school: "Montgomery College",
-    flag: "🇺🇸",
     degree: "Engineering Exchange Program",
     period: "Aug 2018 — May 2019",
     highlights: ["GPA: 4.0"],
@@ -21,7 +19,6 @@ const education = [
   },
   {
     school: "Télécom Physique Strasbourg",
-    flag: "🇫🇷",
     degree: "Computer Engineering — Scholarship Exchange",
     period: "Sep 2023 — Jan 2024",
     highlights: ["Scholarship Program", "France"],
@@ -29,7 +26,6 @@ const education = [
   },
   {
     school: "TripleTen Bootcamp",
-    flag: "🌐",
     degree: "Full-Stack Web Development",
     period: "Mar 2024 — Feb 2025",
     highlights: ["React · Node.js · MongoDB"],
@@ -92,14 +88,11 @@ export default function Education() {
               />
 
               <div className="p-6">
-                <div className="flex items-start gap-3 mb-3">
-                  <span className="text-3xl">{edu.flag}</span>
-                  <div>
-                    <h3 className="font-dm font-semibold text-espresso text-base leading-snug">
-                      {edu.school}
-                    </h3>
-                    <p className="text-xs text-mocha-400 mt-0.5 font-dm">{edu.period}</p>
-                  </div>
+                <div className="mb-3">
+                  <h3 className="font-dm font-semibold text-espresso text-base leading-snug">
+                    {edu.school}
+                  </h3>
+                  <p className="text-xs text-mocha-400 mt-0.5 font-dm">{edu.period}</p>
                 </div>
 
                 <p className="font-playfair italic text-mocha-500 text-base mb-4">

@@ -100,7 +100,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="font-dm text-mocha-500 text-lg font-medium mb-4"
           >
-            Web Developer · Brasília, Brazil 🇧🇷
+            Web Developer · Brasília, Brazil
           </motion.p>
 
           <motion.p
@@ -187,7 +187,7 @@ export default function Hero() {
                 width={420}
                 height={520}
                 className="object-cover object-top"
-                style={{ width: "340px", height: "420px" }}
+                style={{ width: "420px", height: "520px" }}
                 priority
               />
               <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/30 to-transparent" />
@@ -210,15 +210,6 @@ export default function Hero() {
               </p>
             </motion.div>
 
-            {/* Dot grid decoration */}
-            <div className="absolute -top-4 -right-4 grid grid-cols-3 gap-1.5">
-              {Array.from({ length: 9 }).map((_, i) => (
-                <div
-                  key={i}
-                  className="w-1.5 h-1.5 rounded-full bg-blush-300 opacity-60"
-                />
-              ))}
-            </div>
           </div>
         </motion.div>
       </div>

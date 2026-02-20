@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const languages = [
-  { lang: "Portuguese", flag: "🇧🇷", level: "Fluent" },
-  { lang: "English", flag: "🇺🇸", level: "Fluent" },
-  { lang: "French", flag: "🇫🇷", level: "Fluent" },
-  { lang: "Spanish", flag: "🇪🇸", level: "Intermediate" },
+  { lang: "Portuguese", level: "Fluent" },
+  { lang: "English", level: "Fluent" },
+  { lang: "French", level: "Fluent" },
+  { lang: "Spanish", level: "Intermediate" },
 ];
 
 const interests = [
-  { emoji: "🩰", label: "Ballet" },
-  { emoji: "✈️", label: "Traveling" },
-  { emoji: "📚", label: "Reading" },
-  { emoji: "🎨", label: "UI Design" },
+  { label: "Ballet" },
+  { label: "Traveling" },
+  { label: "Reading" },
+  { label: "UI Design" },
 ];
 
 const fadeUp = {
@@ -56,7 +56,7 @@ export default function About() {
             transition={{ duration: 0.7, ease: "easeOut" }}
             className="flex justify-center"
           >
-            <div className="relative" style={{ width: "280px", height: "400px" }}>
+            <div className="relative" style={{ width: "340px", height: "490px" }}>
               {/* Decorative blob behind */}
               <div className="absolute -top-6 -left-6 w-64 h-64 bg-blush-100 rounded-full blur-2xl opacity-60 -z-10" />
 
@@ -65,10 +65,10 @@ export default function About() {
                 <Image
                   src="/images/ballet.jpeg"
                   alt="Beatriz dancing ballet"
-                  width={240}
-                  height={310}
+                  width={300}
+                  height={390}
                   className="object-cover object-top"
-                  style={{ width: "240px", height: "310px" }}
+                  style={{ width: "300px", height: "390px" }}
                 />
               </div>
 
@@ -77,18 +77,11 @@ export default function About() {
                 <Image
                   src="/images/london.jpeg"
                   alt="Beatriz in London"
-                  width={170}
-                  height={190}
+                  width={210}
+                  height={240}
                   className="object-cover object-center"
-                  style={{ width: "170px", height: "190px" }}
+                  style={{ width: "210px", height: "240px" }}
                 />
-              </div>
-
-              {/* Dot decoration */}
-              <div className="absolute -top-3 right-6 grid grid-cols-4 gap-1.5 z-30">
-                {Array.from({ length: 8 }).map((_, i) => (
-                  <div key={i} className="w-1.5 h-1.5 rounded-full bg-sage-300 opacity-70" />
-                ))}
               </div>
             </div>
           </motion.div>
@@ -134,7 +127,6 @@ export default function About() {
                     key={l.lang}
                     className="inline-flex items-center gap-1.5 bg-mocha-100 border border-blush-100 text-mocha-600 font-dm text-sm px-4 py-1.5 rounded-full shadow-sm"
                   >
-                    <span>{l.flag}</span>
                     <span>{l.lang}</span>
                     <span className="text-mocha-300 text-xs">· {l.level}</span>
                   </span>
@@ -158,7 +150,6 @@ export default function About() {
                     key={interest.label}
                     className="flex items-center gap-2 bg-mocha-100 border border-sage-100 text-mocha-600 font-dm text-sm px-4 py-2 rounded-full shadow-sm hover:border-sage-300 hover:bg-sage-50 transition-colors duration-200"
                   >
-                    <span className="text-base">{interest.emoji}</span>
                     <span>{interest.label}</span>
                   </div>
                 ))}
