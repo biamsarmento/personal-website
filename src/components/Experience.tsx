@@ -103,7 +103,7 @@ export default function Experience() {
                         href={exp.companyUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-dm font-semibold text-espresso hover:text-blush-500 transition-colors flex items-center gap-1.5 group"
+                        className="font-dm font-semibold text-lg text-espresso hover:text-blush-500 transition-colors flex items-center gap-1.5 group"
                       >
                         {exp.company}
                         <svg
@@ -116,18 +116,18 @@ export default function Experience() {
                           <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                       </a>
-                      <span className="text-xs text-mocha-600 font-dm bg-black/20 px-3 py-1 rounded-full border border-mocha-200">
+                      <span className="text-sm text-mocha-600 font-dm bg-black/20 px-3 py-1 rounded-full border border-mocha-200">
                         {exp.period}
                       </span>
                     </div>
 
-                    <p className="text-sm text-mocha-500 font-dm mb-4 italic">{exp.role}</p>
+                    <p className="text-base text-mocha-500 font-dm mb-4 italic">{exp.role}</p>
 
                     <ul className="space-y-2">
                       {exp.achievements.map((achievement, i) => (
                         <li
                           key={i}
-                          className="flex gap-2 text-sm text-mocha-500 font-dm leading-relaxed"
+                          className="flex gap-2 text-base text-mocha-500 font-dm leading-relaxed"
                         >
                           <span className="text-blush-300 mt-0.5 flex-shrink-0">◦</span>
                           {achievement}
