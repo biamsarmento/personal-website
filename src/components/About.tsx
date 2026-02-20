@@ -27,11 +27,11 @@ export default function About() {
     <section
       id="about"
       className="relative py-28 overflow-hidden"
-      style={{ backgroundColor: "#F9F0F3" }}
+      style={{ backgroundColor: "#130A0D" }}
     >
       {/* Blobs */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-sage-50 rounded-full blur-3xl opacity-60" />
-      <div className="absolute bottom-0 left-10 w-72 h-72 bg-blush-50 rounded-full blur-3xl opacity-60" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-sage-300/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-10 w-72 h-72 bg-blush-300/15 rounded-full blur-3xl" />
 
       <div className="relative max-w-6xl mx-auto px-6">
         {/* Section Header */}
@@ -132,7 +132,7 @@ export default function About() {
                 {languages.map((l) => (
                   <span
                     key={l.lang}
-                    className="inline-flex items-center gap-1.5 bg-white border border-blush-100 text-mocha-600 font-dm text-sm px-4 py-1.5 rounded-full shadow-sm"
+                    className="inline-flex items-center gap-1.5 bg-mocha-100 border border-blush-100 text-mocha-600 font-dm text-sm px-4 py-1.5 rounded-full shadow-sm"
                   >
                     <span>{l.flag}</span>
                     <span>{l.lang}</span>
@@ -156,7 +156,7 @@ export default function About() {
                 {interests.map((interest) => (
                   <div
                     key={interest.label}
-                    className="flex items-center gap-2 bg-white border border-sage-100 text-mocha-600 font-dm text-sm px-4 py-2 rounded-full shadow-sm hover:border-sage-300 hover:bg-sage-50 transition-colors duration-200"
+                    className="flex items-center gap-2 bg-mocha-100 border border-sage-100 text-mocha-600 font-dm text-sm px-4 py-2 rounded-full shadow-sm hover:border-sage-300 hover:bg-sage-50 transition-colors duration-200"
                   >
                     <span className="text-base">{interest.emoji}</span>
                     <span>{interest.label}</span>

@@ -59,12 +59,12 @@ export default function Hero() {
     <section
       id="home"
       className="relative min-h-screen flex items-center overflow-hidden"
-      style={{ backgroundColor: "#FAF8F5" }}
+      style={{ backgroundColor: "#0D0608" }}
     >
       {/* Decorative blobs */}
-      <div className="absolute top-24 -left-20 w-80 h-80 bg-blush-100 rounded-full blur-3xl opacity-70 animate-blob" />
-      <div className="absolute top-32 right-0 w-96 h-96 bg-sage-100 rounded-full blur-3xl opacity-50 animate-blob animation-delay-2000" />
-      <div className="absolute bottom-16 left-1/3 w-72 h-72 bg-blush-50 rounded-full blur-3xl opacity-70 animate-blob animation-delay-4000" />
+      <div className="absolute top-24 -left-20 w-80 h-80 bg-blush-300/20 rounded-full blur-3xl animate-blob" />
+      <div className="absolute top-32 right-0 w-96 h-96 bg-sage-300/10 rounded-full blur-3xl animate-blob animation-delay-2000" />
+      <div className="absolute bottom-16 left-1/3 w-72 h-72 bg-blush-300/15 rounded-full blur-3xl animate-blob animation-delay-4000" />
 
       <div className="relative max-w-6xl mx-auto px-6 pt-28 pb-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
         {/* Left: Text Content */}
@@ -177,7 +177,7 @@ export default function Hero() {
         >
           <div className="relative">
             {/* Soft gradient frame */}
-            <div className="absolute -inset-3 bg-gradient-to-br from-blush-200 via-sage-100 to-blush-100 rounded-[2.5rem] opacity-70 blur-sm" />
+            <div className="absolute -inset-3 bg-gradient-to-br from-blush-300/40 via-sage-300/20 to-blush-300/25 rounded-[2.5rem] blur-md" />
 
             {/* Image */}
             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl">
@@ -190,7 +190,7 @@ export default function Hero() {
                 style={{ width: "340px", height: "420px" }}
                 priority
               />
-              <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-blush-50/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/30 to-transparent" />
             </div>
 
             {/* Floating badge */}
@@ -201,7 +201,8 @@ export default function Hero() {
                 duration: 3.5,
                 ease: "easeInOut",
               }}
-              className="absolute -bottom-4 -left-6 bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg px-4 py-3 border border-blush-100"
+              className="absolute -bottom-4 -left-6 backdrop-blur-sm rounded-2xl shadow-lg px-4 py-3 border border-blush-100"
+              style={{ backgroundColor: "#1E1015" }}
             >
               <p className="text-xs text-mocha-400 font-dm">Currently at</p>
               <p className="text-sm font-semibold text-espresso font-dm">

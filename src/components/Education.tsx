@@ -9,7 +9,7 @@ const education = [
     degree: "B.Sc. in Network Engineering",
     period: "Mar 2018 — Feb 2025",
     highlights: ["Honor Student"],
-    topBorderColor: "#EC94B2",
+    topBorderColor: "#C41848",
   },
   {
     school: "Montgomery College",
@@ -17,7 +17,7 @@ const education = [
     degree: "Engineering Exchange Program",
     period: "Aug 2018 — May 2019",
     highlights: ["GPA: 4.0"],
-    topBorderColor: "#82BEB2",
+    topBorderColor: "#C4956A",
   },
   {
     school: "Télécom Physique Strasbourg",
@@ -25,7 +25,7 @@ const education = [
     degree: "Computer Engineering — Scholarship Exchange",
     period: "Sep 2023 — Jan 2024",
     highlights: ["Scholarship Program", "France"],
-    topBorderColor: "#F7B8CD",
+    topBorderColor: "#9A3358",
   },
   {
     school: "TripleTen Bootcamp",
@@ -33,7 +33,7 @@ const education = [
     degree: "Full-Stack Web Development",
     period: "Mar 2024 — Feb 2025",
     highlights: ["React · Node.js · MongoDB"],
-    topBorderColor: "#B0D9CE",
+    topBorderColor: "#8A7050",
   },
 ];
 
@@ -52,10 +52,10 @@ export default function Education() {
     <section
       id="education"
       className="relative py-28 overflow-hidden"
-      style={{ backgroundColor: "#F9F0F3" }}
+      style={{ backgroundColor: "#130A0D" }}
     >
-      <div className="absolute top-10 left-10 w-72 h-72 bg-blush-50 rounded-full blur-3xl opacity-50" />
-      <div className="absolute bottom-10 right-10 w-80 h-80 bg-sage-50 rounded-full blur-3xl opacity-50" />
+      <div className="absolute top-10 left-10 w-72 h-72 bg-blush-300/15 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 right-10 w-80 h-80 bg-sage-300/10 rounded-full blur-3xl" />
 
       <div className="relative max-w-6xl mx-auto px-6">
         {/* Header */}
@@ -83,7 +83,7 @@ export default function Education() {
             <motion.div
               key={edu.school}
               variants={item}
-              className="bg-white rounded-3xl border border-blush-100 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+              className="bg-mocha-100 rounded-3xl border border-mocha-200 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300"
             >
               {/* Top color bar */}
               <div
@@ -110,7 +110,7 @@ export default function Education() {
                   {edu.highlights.map((h) => (
                     <span
                       key={h}
-                      className="text-xs bg-blush-50 text-blush-500 border border-blush-200 px-3 py-1 rounded-full font-dm"
+                      className="text-xs bg-blush-50 text-blush-300 border border-blush-100 px-3 py-1 rounded-full font-dm"
                     >
                       ✦ {h}
                     </span>

@@ -8,7 +8,7 @@ const skillCategories = [
     emoji: "✦",
     bgClass: "bg-blush-50 border-blush-200",
     labelClass: "text-blush-500",
-    pillClass: "bg-blush-100 text-blush-600 border-blush-200",
+    pillClass: "bg-blush-50 text-blush-300 border-blush-100",
     skills: [
       "HTML", "CSS", "JavaScript", "TypeScript",
       "React", "Next.js", "Angular", "TailwindCSS",
@@ -20,7 +20,7 @@ const skillCategories = [
     emoji: "⬡",
     bgClass: "bg-sage-50 border-sage-200",
     labelClass: "text-sage-600",
-    pillClass: "bg-sage-100 text-sage-600 border-sage-200",
+    pillClass: "bg-sage-50 text-sage-300 border-sage-100",
     skills: ["Node.js", "Express.js", "MongoDB", "MySQL", "RESTful APIs"],
   },
   {
@@ -28,7 +28,7 @@ const skillCategories = [
     emoji: "◈",
     bgClass: "bg-mocha-100 border-mocha-200",
     labelClass: "text-mocha-600",
-    pillClass: "bg-white text-mocha-600 border-mocha-200",
+    pillClass: "bg-mocha-100 text-mocha-600 border-mocha-200",
     skills: ["Git", "Docker", "GitHub Actions", "Cypress", "Selenium", "Postman"],
   },
   {
@@ -36,7 +36,7 @@ const skillCategories = [
     emoji: "◎",
     bgClass: "bg-blush-50 border-blush-100",
     labelClass: "text-blush-400",
-    pillClass: "bg-white text-blush-500 border-blush-200",
+    pillClass: "bg-blush-50 text-blush-300 border-blush-100",
     skills: ["Scrum", "Agile Development", "Test Automation"],
   },
 ];
@@ -56,10 +56,10 @@ export default function Skills() {
     <section
       id="skills"
       className="relative py-28 overflow-hidden"
-      style={{ backgroundColor: "#FAF8F5" }}
+      style={{ backgroundColor: "#0D0608" }}
     >
-      <div className="absolute top-0 left-0 w-80 h-80 bg-sage-50 rounded-full blur-3xl opacity-50" />
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-blush-50 rounded-full blur-3xl opacity-40" />
+      <div className="absolute top-0 left-0 w-80 h-80 bg-sage-300/10 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-blush-300/10 rounded-full blur-3xl" />
 
       <div className="relative max-w-6xl mx-auto px-6">
         {/* Header */}

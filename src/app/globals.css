@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  background-color: #FAF8F5;
-  color: #2D1A18;
+  background-color: #0D0608;
+  color: #F5EDE4;
   overflow-x: hidden;
 }
 
@@ -29,10 +29,10 @@ body {
     @apply inline-flex items-center gap-2 bg-blush-300 hover:bg-blush-400 text-white font-dm font-medium px-7 py-3 rounded-full transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 cursor-pointer;
   }
   .btn-secondary {
-    @apply inline-flex items-center gap-2 border-2 border-blush-300 text-blush-400 hover:bg-blush-50 font-dm font-medium px-7 py-3 rounded-full transition-all duration-300 hover:-translate-y-0.5 cursor-pointer;
+    @apply inline-flex items-center gap-2 border-2 border-blush-300 text-blush-300 hover:bg-blush-50 font-dm font-medium px-7 py-3 rounded-full transition-all duration-300 hover:-translate-y-0.5 cursor-pointer;
   }
   .section-label {
-    @apply text-sage-500 text-xs font-dm font-semibold tracking-[0.2em] uppercase mb-3;
+    @apply text-sage-300 text-xs font-dm font-semibold tracking-[0.2em] uppercase mb-3;
   }
   .section-title {
     @apply font-playfair text-4xl lg:text-5xl font-bold text-espresso leading-tight;

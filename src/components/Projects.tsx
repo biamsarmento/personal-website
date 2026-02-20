@@ -10,7 +10,7 @@ const projects = [
       "Corporate web portal for Brazil's Center for Strategic Studies and Management, a leading think tank supporting public policy, innovation, and science nationwide.",
     tags: ["React", "Liferay", "CSS", "RESTful APIs"],
     accent: "from-blush-200 to-blush-100",
-    tagClass: "bg-blush-100 text-blush-600 border-blush-200",
+    tagClass: "bg-blush-50 text-blush-300 border-blush-100",
   },
   {
     name: "SINPOL-DF",
@@ -18,8 +18,8 @@ const projects = [
     description:
       "Web application for the Brasília Civil Police Officers Union, featuring member services, news portal, and institutional information with a modern, accessible interface.",
     tags: ["HTML", "CSS", "JavaScript", "Liferay"],
-    accent: "from-sage-200 to-sage-100",
-    tagClass: "bg-sage-100 text-sage-600 border-sage-200",
+    accent: "from-sage-300 to-sage-200",
+    tagClass: "bg-sage-50 text-sage-300 border-sage-100",
   },
   {
     name: "ASSERJ",
@@ -27,7 +27,7 @@ const projects = [
     description:
       "Professional association website with comprehensive member management, event listings, and institutional information for the Rio de Janeiro judiciary.",
     tags: ["React", "Node.js", "CSS", "Responsive Design"],
-    accent: "from-mocha-100 to-blush-100",
+    accent: "from-mocha-200 to-mocha-100",
     tagClass: "bg-mocha-100 text-mocha-600 border-mocha-200",
   },
   {
@@ -36,8 +36,8 @@ const projects = [
     description:
       "Curated newsletter platform delivering handpicked inspirational quotes to subscribers worldwide. Clean, minimal design focused on daily motivation and elegant reading.",
     tags: ["Next.js", "TypeScript", "TailwindCSS", "Email"],
-    accent: "from-sage-100 to-blush-100",
-    tagClass: "bg-blush-100 text-blush-500 border-blush-200",
+    accent: "from-sage-200 to-blush-100",
+    tagClass: "bg-blush-50 text-blush-300 border-blush-100",
   },
 ];
 
@@ -56,10 +56,10 @@ export default function Projects() {
     <section
       id="projects"
       className="relative py-28 overflow-hidden"
-      style={{ backgroundColor: "#FAF8F5" }}
+      style={{ backgroundColor: "#0D0608" }}
     >
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-sage-50 rounded-full blur-3xl opacity-60" />
-      <div className="absolute top-20 right-10 w-64 h-64 bg-blush-50 rounded-full blur-3xl opacity-60" />
+      <div className="absolute bottom-0 left-0 w-80 h-80 bg-sage-300/10 rounded-full blur-3xl" />
+      <div className="absolute top-20 right-10 w-64 h-64 bg-blush-300/15 rounded-full blur-3xl" />
 
       <div className="relative max-w-6xl mx-auto px-6">
         {/* Header */}
@@ -87,7 +87,7 @@ export default function Projects() {
             <motion.div
               key={project.name}
               variants={item}
-              className="group bg-white rounded-3xl border border-blush-100 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1.5 transition-all duration-300"
+              className="group bg-mocha-100 rounded-3xl border border-mocha-200 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1.5 transition-all duration-300"
             >
               {/* Accent gradient bar */}
               <div className={`h-1.5 bg-gradient-to-r ${project.accent}`} />

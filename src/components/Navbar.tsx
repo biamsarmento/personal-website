@@ -31,7 +31,7 @@ export default function Navbar() {
             ? "bg-cream-DEFAULT/90 backdrop-blur-md shadow-sm border-b border-blush-100"
             : "bg-transparent"
         }`}
-        style={scrolled ? { backgroundColor: "rgba(250, 248, 245, 0.92)" } : {}}
+        style={scrolled ? { backgroundColor: "rgba(13, 6, 8, 0.92)" } : {}}
       >
         <nav className="max-w-6xl mx-auto px-6 flex items-center justify-between py-4">
           {/* Logo */}
@@ -98,7 +98,7 @@ export default function Navbar() {
             ? "opacity-100 pointer-events-auto"
             : "opacity-0 pointer-events-none"
         }`}
-        style={{ backgroundColor: "rgba(250, 248, 245, 0.97)", backdropFilter: "blur(12px)" }}
+        style={{ backgroundColor: "rgba(13, 6, 8, 0.97)", backdropFilter: "blur(12px)" }}
       >
         <ul className="flex flex-col items-center gap-7">
           {navLinks.map((link, i) => (

@@ -52,9 +52,9 @@ export default function Experience() {
     <section
       id="experience"
       className="relative py-28 overflow-hidden"
-      style={{ backgroundColor: "#F9F0F3" }}
+      style={{ backgroundColor: "#130A0D" }}
     >
-      <div className="absolute top-20 right-10 w-80 h-80 bg-blush-50 rounded-full blur-3xl opacity-50" />
+      <div className="absolute top-20 right-10 w-80 h-80 bg-blush-300/15 rounded-full blur-3xl" />
 
       <div className="relative max-w-5xl mx-auto px-6">
         {/* Header */}
@@ -117,7 +117,7 @@ export default function Experience() {
                           <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                         </svg>
                       </a>
-                      <span className="text-xs text-mocha-400 font-dm bg-white/70 px-3 py-1 rounded-full border border-white">
+                      <span className="text-xs text-mocha-600 font-dm bg-black/20 px-3 py-1 rounded-full border border-mocha-200">
                         {exp.period}
                       </span>
                     </div>
