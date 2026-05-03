@@ -46,7 +46,7 @@ export function AboutSection() {
                 <p className="font-display text-3xl font-light text-[#9e4f62]">
                   {value}
                 </p>
-                <p className="font-body text-[10px] tracking-[0.15em] uppercase text-[#7d5a56] mt-1 whitespace-pre-line leading-tight">
+                <p className="font-body text-[14px] tracking-[0.15em] uppercase text-[#7d5a56] mt-1 whitespace-pre-line leading-tight">
                   {label}
                 </p>
               </div>

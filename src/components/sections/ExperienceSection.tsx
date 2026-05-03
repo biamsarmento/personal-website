@@ -50,7 +50,7 @@ export function ExperienceSection() {
                       {item.role}
                     </p>
                   </div>
-                  <p className="font-body text-[10px] tracking-[0.22em] uppercase text-[#9e4f62] shrink-0 md:text-right">
+                  <p className="font-body text-[14px] tracking-[0.22em] uppercase text-[#9e4f62] shrink-0 md:text-right">
                     {item.period}
                   </p>
                 </div>
@@ -59,7 +59,10 @@ export function ExperienceSection() {
                 <ul className="space-y-2.5 mb-8" role="list">
                   {item.bullets.map((bullet, j) => (
                     <li key={j} className="flex gap-3 items-start">
-                      <span className="mt-2 shrink-0 w-1 h-1 rounded-full bg-[#d8a4af]" aria-hidden="true" />
+                      <span
+                        className="mt-2 shrink-0 w-1 h-1 rounded-full bg-[#d8a4af]"
+                        aria-hidden="true"
+                      />
                       <p className="font-body font-300 text-[#7d5a56] text-[0.9rem] leading-relaxed">
                         {bullet}
                       </p>
@@ -69,7 +72,7 @@ export function ExperienceSection() {
 
                 {/* Projects placeholder */}
                 <div className="border-t border-[#f7ddd5] pt-6">
-                  <p className="font-body text-[10px] tracking-[0.22em] uppercase text-[#9e4f62] mb-3">
+                  <p className="font-body text-[14px] tracking-[0.22em] uppercase text-[#9e4f62] mb-3">
                     {t("projectsLabel")}
                   </p>
                   {/* 

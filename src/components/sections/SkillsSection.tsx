@@ -6,23 +6,39 @@ import { useScrollReveal } from "@/lib/useScrollReveal";
 
 const skillData = {
   frontend: [
-    "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js",
-    "Angular", "Vite", "TailwindCSS", "Figma", "UI/UX Design",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Angular",
+    "Vite",
+    "TailwindCSS",
+    "Figma",
+    "UI/UX Design",
   ],
   backend: [
-    "Node.js", "Express.js", "MongoDB", "MySQL", "RESTful APIs",
-    "Prisma", "Vercel", "Neon",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "RESTful APIs",
+    "Prisma",
+    "Vercel",
+    "Neon",
   ],
-  tools: [
-    "Git", "Docker", "GitHub Actions", "Cypress", "Selenium", "Postman",
-  ],
+  tools: ["Git", "Docker", "GitHub Actions", "Cypress", "Selenium", "Postman"],
   methodologies: ["Scrum", "Agile Development", "Test Automation"],
   languages: ["Portuguese", "English", "French", "Spanish"],
 };
 
 type SkillCategory = keyof typeof skillData;
 
-const categoryColors: Record<SkillCategory, { bg: string; text: string; border: string }> = {
+const categoryColors: Record<
+  SkillCategory,
+  { bg: string; text: string; border: string }
+> = {
   frontend: {
     bg: "bg-[#f7ddd5]/80",
     text: "text-[#6b403b]",
@@ -50,7 +66,13 @@ const categoryColors: Record<SkillCategory, { bg: string; text: string; border: 
   },
 };
 
-function SkillTag({ label, category }: { label: string; category: SkillCategory }) {
+function SkillTag({
+  label,
+  category,
+}: {
+  label: string;
+  category: SkillCategory;
+}) {
   const colors = categoryColors[category];
   return (
     <span
@@ -84,12 +106,16 @@ export function SkillsSection() {
               className={`animate-on-scroll delay-${(i + 1) * 100}`}
             >
               <div className="flex items-center gap-4 mb-4">
-                <h3 className="font-body text-[10px] tracking-[0.25em] uppercase text-[#9e4f62] shrink-0">
+                <h3 className="font-body text-[14px] tracking-[0.25em] uppercase text-[#9e4f62] shrink-0">
                   {catT(category)}
                 </h3>
                 <div className="h-px flex-1 bg-[#f7ddd5]" />
               </div>
-              <div className="flex flex-wrap gap-2.5" role="list" aria-label={catT(category)}>
+              <div
+                className="flex flex-wrap gap-2.5"
+                role="list"
+                aria-label={catT(category)}
+              >
                 {skillData[category].map((skill) => (
                   <div key={skill} role="listitem">
                     <SkillTag label={skill} category={category} />
