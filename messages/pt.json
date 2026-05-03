@@ -61,6 +61,10 @@
     "subheading": "Construindo com intencao",
     "projectsLabel": "Projetos",
     "projectsPlaceholder": "Links dos projetos em breve",
+    "personalProjectsHeading": "Projetos Pessoais",
+    "personalProjectsType": "Pessoal",
+    "personalProjectsSubtitle": "Projetos desenvolvidos fora do ambiente corporativo",
+    "personalProjectsList": [],
     "items": [
       {
         "company": "Simplify Technology",
@@ -72,6 +76,9 @@
           "Implementou interfaces responsivas e centradas no usuario, aumentando o engajamento em varios produtos.",
           "Supervisiona e e responsavel por quatro projetos simultaneos, garantindo entrega pontual e padroes de alta qualidade.",
           "Colaborou com desenvolvedores seniors para construir arquiteturas front-end escalaveis e melhorar a qualidade geral do codigo."
+        ],
+        "projects": [
+          { "name": "CGEE", "url": "https://www.cgee.org.br" }
         ]
       },
       {

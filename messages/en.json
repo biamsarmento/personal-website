@@ -61,6 +61,10 @@
     "subheading": "Building with intention",
     "projectsLabel": "Projects",
     "projectsPlaceholder": "Project links coming soon",
+    "personalProjectsHeading": "Personal Projects",
+    "personalProjectsType": "Personal",
+    "personalProjectsSubtitle": "Projects developed outside the corporate environment",
+    "personalProjectsList": [],
     "items": [
       {
         "company": "Simplify Technology",
@@ -72,6 +76,9 @@
           "Implemented responsive, user-focused interfaces, increasing user engagement across multiple products.",
           "Supervising and currently responsible for four concurrent projects, ensuring timely delivery and high-quality standards.",
           "Collaborated with senior developers to build scalable front-end architectures and improve overall code quality."
+        ],
+        "projects": [
+          { "name": "CGEE", "url": "https://www.cgee.org.br" }
         ]
       },
       {
