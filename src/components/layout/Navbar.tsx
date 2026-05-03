@@ -64,7 +64,9 @@ export function Navbar() {
           className={`font-display text-xl font-medium tracking-widest transition-colors duration-300 ${scrolled ? "text-[#6b403b] hover:text-[#9e4f62]" : "text-[#f7ddd5] hover:text-[#f7ddd5]/80"}`}
         >
           <img
-            src={scrolled ? "/images/logo_after.png" : "/images/logo_before.png"}
+            src={
+              scrolled ? "/images/logo_after.png" : "/images/logo_before.png"
+            }
             alt="Logo"
             className="h-16 w-auto"
           />
@@ -76,7 +78,7 @@ export function Navbar() {
             <button
               key={key}
               onClick={() => handleNavClick(href)}
-              className={`font-body text-xs font-400 tracking-[0.18em] uppercase transition-colors duration-300 relative group ${scrolled ? "text-[#6b403b]/70 hover:text-[#6b403b]" : "text-[#f7ddd5]/80 hover:text-[#f7ddd5]"}`}
+              className={`font-body text-s font-700 tracking-[0.18em] uppercase transition-colors duration-300 relative group ${scrolled ? "text-[#6b403b]/70 hover:text-[#6b403b]" : "text-[#f7ddd5]/80 hover:text-[#f7ddd5]"}`}
             >
               {t(key as keyof ReturnType<typeof t>)}
               <span
@@ -160,7 +162,7 @@ export function Navbar() {
             <button
               key={key}
               onClick={() => handleNavClick(href)}
-              className="text-left font-body text-xs tracking-[0.18em] uppercase text-[#6b403b]/70 hover:text-[#6b403b] transition-colors py-1"
+              className="text-left font-body text-xs font-700 tracking-[0.18em] uppercase text-[#6b403b]/70 hover:text-[#6b403b] transition-colors py-1"
             >
               {t(key as keyof ReturnType<typeof t>)}
             </button>
