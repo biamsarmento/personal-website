@@ -63,7 +63,11 @@ export function Navbar() {
           }}
           className={`font-display text-xl font-medium tracking-widest transition-colors duration-300 ${scrolled ? "text-[#6b403b] hover:text-[#9e4f62]" : "text-[#f7ddd5] hover:text-[#f7ddd5]/80"}`}
         >
-          <img src="/images/logo.png" alt="Logo" className="h-16 w-auto" />
+          <img
+            src={scrolled ? "/images/logo_after.png" : "/images/logo_before.png"}
+            alt="Logo"
+            className="h-16 w-auto"
+          />
         </a>
 
         {/* Desktop Links */}
