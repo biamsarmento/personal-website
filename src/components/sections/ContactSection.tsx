@@ -57,7 +57,7 @@ export function ContactSection() {
     {
       label: t("linkedin"),
       value: "linkedin.com/in/biamsarmento",
-      href: "https://linkedin.com/in/biamsarmento",
+      href: "https://www.linkedin.com/in/beatriz-sarmento/",
       icon: (
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
           <rect
@@ -120,7 +120,7 @@ export function ContactSection() {
         </div>
 
         <div className="animate-on-scroll delay-100 max-w-2xl mx-auto text-center mb-16">
-          <p className="font-body font-300 text-[#f7ddd5]/65 leading-relaxed text-[0.95rem]">
+          <p className="font-body font-500 text-[#f7ddd5]/65 leading-relaxed text-[0.95rem]">
             {t("description")}
           </p>
         </div>

@@ -10,6 +10,7 @@ export function ExperienceSection() {
 
   const items = t.raw("items") as Array<{
     company: string;
+    url?: string;
     role: string;
     period: string;
     type: string;
@@ -48,7 +49,11 @@ export function ExperienceSection() {
                   <div>
                     <div className="flex items-center gap-3 mb-1.5">
                       <h3 className="font-display text-2xl font-medium text-[#6b403b]">
-                        {item.company}
+                        {item.url ? (
+                          <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[#9e4f62] transition-colors duration-200">
+                            {item.company}
+                          </a>
+                        ) : item.company}
                       </h3>
                       <span className="font-body text-[9px] tracking-[0.2em] uppercase text-[#9e4f62] bg-[#f7ddd5] rounded-full px-2.5 py-1">
                         {item.type}

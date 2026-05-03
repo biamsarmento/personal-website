@@ -73,6 +73,7 @@
     "items": [
       {
         "company": "Simplify Technology",
+        "url": "https://www.simplifytec.com.br",
         "role": "Web Developer",
         "period": "Apr 2025 — Present",
         "type": "Full-time",
@@ -91,6 +92,7 @@
       },
       {
         "company": "Eldorado Research Institute",
+        "url": "https://www.eldorado.org.br",
         "role": "Web Developer Intern",
         "period": "Nov 2022 — Jul 2023",
         "type": "Internship",
@@ -103,6 +105,7 @@
       },
       {
         "company": "Federal Court of Accounts (TCU)",
+        "url": "https://portal.tcu.gov.br",
         "role": "Tests Intern",
         "period": "Sep 2020 — Mar 2021",
         "type": "Internship",
