@@ -41,7 +41,7 @@
         "location": "Maryland, Etats-Unis"
       },
       {
-        "institution": "Telecom Physique Strasbourg",
+        "institution": "Télécom Physique Strasbourg",
         "degree": "Ingenierie Informatique — Echange Boursier",
         "period": "Sep 2023 — Jan 2024",
         "note": "Boursiere",
@@ -67,8 +67,16 @@
     "personalProjectsSubtitle": "Projets developpes en dehors du contexte professionnel",
     "personalProjectsList": [
       { "name": "Quotes Newsletter", "url": "https://quotesnewsletter.com" },
-      { "name": "Oliveira Santos", "url": "https://oliveirasantosadv.com.br", "comingSoon": true },
-      { "name": "Entretido", "url": "https://entretido.com.br", "comingSoon": true }
+      {
+        "name": "Oliveira Santos",
+        "url": "https://oliveirasantosadv.com.br",
+        "comingSoon": true
+      },
+      {
+        "name": "Entretido",
+        "url": "https://entretido.com.br",
+        "comingSoon": true
+      }
     ],
     "items": [
       {

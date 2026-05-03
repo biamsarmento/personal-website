@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { useRouter } from "@/i18n/navigation";
 
 const localeLabels: Record<string, string> = {
   en: "EN",
@@ -13,7 +12,6 @@ const localeLabels: Record<string, string> = {
 export function Navbar() {
   const t = useTranslations("nav");
   const locale = useLocale();
-  const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
@@ -33,8 +31,7 @@ export function Navbar() {
   ];
 
   const handleLocaleChange = (newLocale: string) => {
-    router.replace('/', { locale: newLocale });
-    setLangOpen(false);
+    window.location.href = `/${newLocale}`;
   };
 
   const handleNavClick = (href: string) => {
