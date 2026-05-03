@@ -14,13 +14,14 @@ export function ExperienceSection() {
     period: string;
     type: string;
     bullets: string[];
-    projects?: Array<{ name: string; url: string }>;
+    projects?: Array<{ name: string; url: string; comingSoon?: boolean }>;
   }>;
 
   const personalProjects = t.raw("personalProjectsList") as Array<{
     name: string;
     url: string;
-    tech: string;
+    tech?: string;
+    comingSoon?: boolean;
   }>;
 
   return (
@@ -86,15 +87,21 @@ export function ExperienceSection() {
                     {item.projects && item.projects.length > 0 ? (
                       <div className="flex flex-wrap gap-3">
                         {item.projects.map((project) => (
-                          <a
-                            key={project.name}
-                            href={project.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="font-body text-xs text-[#6b403b] border border-[#d8a4af]/40 rounded-full px-4 py-2 hover:bg-[#f7ddd5] hover:border-[#d8a4af] transition-all duration-200"
-                          >
-                            {project.name} →
-                          </a>
+                          <div key={project.name} className="relative">
+                            <a
+                              href={project.comingSoon ? undefined : project.url}
+                              target={project.comingSoon ? undefined : "_blank"}
+                              rel={project.comingSoon ? undefined : "noopener noreferrer"}
+                              className={`font-body text-xs border rounded-full px-4 py-2 transition-all duration-200 ${project.comingSoon ? "text-[#7d5a56] border-[#d8a4af]/20 cursor-default opacity-60" : "text-[#6b403b] border-[#d8a4af]/40 hover:bg-[#f7ddd5] hover:border-[#d8a4af]"}`}
+                            >
+                              {project.name}{!project.comingSoon && " →"}
+                            </a>
+                            {project.comingSoon && (
+                              <span className="absolute -top-2 -right-1 font-body text-[9px] tracking-wide uppercase bg-[#d8a4af] text-white rounded-full px-1.5 py-0.5 leading-none">
+                                {t("comingSoon")}
+                              </span>
+                            )}
+                          </div>
                         ))}
                       </div>
                     ) : (
@@ -132,21 +139,27 @@ export function ExperienceSection() {
               {personalProjects.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   {personalProjects.map((project) => (
-                    <a
-                      key={project.name}
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="group/link flex items-center justify-between p-4 rounded-xl border border-[#f7ddd5] hover:border-[#d8a4af]/60 hover:bg-white transition-all duration-200"
-                    >
-                      <div>
-                        <p className="font-body text-sm font-400 text-[#6b403b] group-hover/link:text-[#9e4f62] transition-colors">
-                          {project.name}
-                        </p>
-                        <p className="font-body text-xs text-[#7d5a56] mt-0.5">{project.tech}</p>
-                      </div>
-                      <span className="text-[#d8a4af] group-hover/link:text-[#9e4f62] transition-colors ml-4">→</span>
-                    </a>
+                    <div key={project.name} className="relative">
+                      <a
+                        href={project.comingSoon ? undefined : project.url}
+                        target={project.comingSoon ? undefined : "_blank"}
+                        rel={project.comingSoon ? undefined : "noopener noreferrer"}
+                        className={`group/link flex items-center justify-between p-4 rounded-xl border transition-all duration-200 ${project.comingSoon ? "border-[#f7ddd5] opacity-60 cursor-default" : "border-[#f7ddd5] hover:border-[#d8a4af]/60 hover:bg-white"}`}
+                      >
+                        <div>
+                          <p className={`font-body text-sm font-400 text-[#6b403b] transition-colors ${!project.comingSoon && "group-hover/link:text-[#9e4f62]"}`}>
+                            {project.name}
+                          </p>
+                          {project.tech && <p className="font-body text-xs text-[#7d5a56] mt-0.5">{project.tech}</p>}
+                        </div>
+                        {!project.comingSoon && <span className="text-[#d8a4af] group-hover/link:text-[#9e4f62] transition-colors ml-4">→</span>}
+                      </a>
+                      {project.comingSoon && (
+                        <span className="absolute -top-2 -right-1 font-body text-[9px] tracking-wide uppercase bg-[#d8a4af] text-white rounded-full px-1.5 py-0.5 leading-none">
+                          {t("comingSoon")}
+                        </span>
+                      )}
+                    </div>
                   ))}
                 </div>
               ) : (

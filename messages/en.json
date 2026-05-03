@@ -61,13 +61,14 @@
     "subheading": "Building with intention",
     "projectsLabel": "Projects",
     "projectsPlaceholder": "Project links coming soon",
+    "comingSoon": "Coming soon",
     "personalProjectsHeading": "Personal Projects",
     "personalProjectsType": "Personal",
     "personalProjectsSubtitle": "Projects developed outside the corporate environment",
     "personalProjectsList": [
       { "name": "Quotes Newsletter", "url": "https://quotesnewsletter.com" },
-      { "name": "Oliveira Santos", "url": "https://oliveirasantosadv.com.br" },
-      { "name": "Entretido", "url": "https://entretido.com.br" }
+      { "name": "Oliveira Santos", "url": "https://oliveirasantosadv.com.br", "comingSoon": true },
+      { "name": "Entretido", "url": "https://entretido.com.br", "comingSoon": true }
     ],
     "items": [
       {
