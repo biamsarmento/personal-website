@@ -30,7 +30,7 @@ export function SectionHeading({ id, heading, subheading, centered = false, ligh
   return (
     <div className={`mb-16 ${centered ? "text-center" : ""}`}>
       {subheading && (
-        <p className={`font-body text-[10px] tracking-[0.3em] uppercase mb-3 ${light ? "text-[#f7ddd5]/60" : "text-[#d8a4af]"}`}>
+        <p className={`font-body text-[10px] tracking-[0.3em] uppercase mb-3 ${light ? "text-[#f7ddd5]/60" : "text-[#9e4f62]"}`}>
           {subheading}
         </p>
       )}

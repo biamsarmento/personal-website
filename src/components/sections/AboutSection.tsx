@@ -25,7 +25,7 @@ export function AboutSection() {
             {(["p1", "p2", "p3"] as const).map((key, i) => (
               <p
                 key={key}
-                className={`animate-on-scroll delay-${(i + 1) * 100} font-body font-300 text-[#6b403b]/75 leading-relaxed text-[0.95rem]`}
+                className={`animate-on-scroll delay-${(i + 1) * 100} font-body font-300 text-[#7d5a56] leading-relaxed text-[0.95rem]`}
               >
                 {t(key)}
               </p>
@@ -40,8 +40,8 @@ export function AboutSection() {
               { value: "4.0", label: "Exchange\nGPA" },
             ].map(({ value, label }) => (
               <div key={value} className="text-center">
-                <p className="font-display text-3xl font-light text-[#d8a4af]">{value}</p>
-                <p className="font-body text-[10px] tracking-[0.15em] uppercase text-[#6b403b]/50 mt-1 whitespace-pre-line leading-tight">
+                <p className="font-display text-3xl font-light text-[#9e4f62]">{value}</p>
+                <p className="font-body text-[10px] tracking-[0.15em] uppercase text-[#7d5a56] mt-1 whitespace-pre-line leading-tight">
                   {label}
                 </p>
               </div>
@@ -71,7 +71,7 @@ export function AboutSection() {
                       <path d="M4 28C4 21.373 9.373 16 16 16C22.627 16 28 21.373 28 28" stroke="#6b403b" strokeWidth="1.5" strokeOpacity="0.4" strokeLinecap="round" />
                     </svg>
                   </div>
-                  <p className="font-body text-xs tracking-[0.2em] uppercase text-[#6b403b]/40">
+                  <p className="font-body text-xs tracking-[0.2em] uppercase text-[#7d5a56]">
                     Your Photo Here
                   </p>
                 </div>

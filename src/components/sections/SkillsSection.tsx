@@ -84,7 +84,7 @@ export function SkillsSection() {
               className={`animate-on-scroll delay-${(i + 1) * 100}`}
             >
               <div className="flex items-center gap-4 mb-4">
-                <h3 className="font-body text-[10px] tracking-[0.25em] uppercase text-[#d8a4af] shrink-0">
+                <h3 className="font-body text-[10px] tracking-[0.25em] uppercase text-[#9e4f62] shrink-0">
                   {catT(category)}
                 </h3>
                 <div className="h-px flex-1 bg-[#f7ddd5]" />

@@ -61,9 +61,9 @@ export function Navbar() {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className="font-display text-xl font-medium tracking-widest text-[#6b403b] hover:text-[#d8a4af] transition-colors duration-300"
+          className={`font-display text-xl font-medium tracking-widest transition-colors duration-300 ${scrolled ? "text-[#6b403b] hover:text-[#9e4f62]" : "text-[#f7ddd5] hover:text-[#f7ddd5]/80"}`}
         >
-          B.S
+          <img src="/images/logo.png" alt="Logo" className="h-16 w-auto" />
         </a>
 
         {/* Desktop Links */}
@@ -72,10 +72,12 @@ export function Navbar() {
             <button
               key={key}
               onClick={() => handleNavClick(href)}
-              className="font-body text-xs font-400 tracking-[0.18em] uppercase text-[#6b403b]/70 hover:text-[#6b403b] transition-colors duration-300 relative group"
+              className={`font-body text-xs font-400 tracking-[0.18em] uppercase transition-colors duration-300 relative group ${scrolled ? "text-[#6b403b]/70 hover:text-[#6b403b]" : "text-[#f7ddd5]/80 hover:text-[#f7ddd5]"}`}
             >
               {t(key as keyof ReturnType<typeof t>)}
-              <span className="absolute -bottom-0.5 left-0 w-0 h-px bg-[#d8a4af] transition-all duration-300 group-hover:w-full" />
+              <span
+                className={`absolute -bottom-0.5 left-0 w-0 h-px transition-all duration-300 group-hover:w-full ${scrolled ? "bg-[#d8a4af]" : "bg-[#f7ddd5]"}`}
+              />
             </button>
           ))}
         </div>
@@ -86,7 +88,7 @@ export function Navbar() {
           <div className="relative">
             <button
               onClick={() => setLangOpen(!langOpen)}
-              className="font-body text-xs tracking-[0.14em] uppercase text-[#6b403b]/70 hover:text-[#6b403b] transition-colors flex items-center gap-1.5 border border-[#d8a4af]/40 rounded-full px-3 py-1 hover:border-[#d8a4af] hover:bg-[#f7ddd5]/40"
+              className={`font-body text-xs tracking-[0.14em] uppercase transition-colors flex items-center gap-1.5 border rounded-full px-3 py-1 ${scrolled ? "text-[#6b403b]/70 hover:text-[#6b403b] border-[#d8a4af]/40 hover:border-[#d8a4af] hover:bg-[#f7ddd5]/40" : "text-[#f7ddd5]/80 hover:text-[#f7ddd5] border-[#f7ddd5]/40 hover:border-[#f7ddd5] hover:bg-[#f7ddd5]/10"}`}
               aria-label="Switch language"
             >
               {localeLabels[locale]}
@@ -131,13 +133,13 @@ export function Navbar() {
             aria-label="Toggle menu"
           >
             <span
-              className={`w-5 h-px bg-[#6b403b] transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-[7px]" : ""}`}
+              className={`w-5 h-px transition-all duration-300 ${scrolled ? "bg-[#6b403b]" : "bg-[#f7ddd5]"} ${menuOpen ? "rotate-45 translate-y-[7px]" : ""}`}
             />
             <span
-              className={`w-5 h-px bg-[#6b403b] transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`}
+              className={`w-5 h-px transition-all duration-300 ${scrolled ? "bg-[#6b403b]" : "bg-[#f7ddd5]"} ${menuOpen ? "opacity-0" : ""}`}
             />
             <span
-              className={`w-5 h-px bg-[#6b403b] transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-[7px]" : ""}`}
+              className={`w-5 h-px transition-all duration-300 ${scrolled ? "bg-[#6b403b]" : "bg-[#f7ddd5]"} ${menuOpen ? "-rotate-45 -translate-y-[7px]" : ""}`}
             />
           </button>
         </div>

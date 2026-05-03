@@ -94,12 +94,12 @@ function EducationCard({
             {item.institution}
           </h3>
         </div>
-        <span className="font-body text-[10px] tracking-widest text-[#6b403b]/40 bg-[#f7ddd5]/60 rounded-full px-2.5 py-1 shrink-0">
+        <span className="font-body text-[10px] tracking-widest text-[#7d5a56] bg-[#f7ddd5]/60 rounded-full px-2.5 py-1 shrink-0">
           {item.location.split(",")[1]?.trim() || item.location}
         </span>
       </div>
-      <p className="font-body font-400 text-[#6b403b]/70 text-sm mb-3">{item.degree}</p>
-      <p className="font-body font-300 text-[#6b403b]/50 text-xs italic">{item.note}</p>
+      <p className="font-body font-400 text-[#7d5a56] text-sm mb-3">{item.degree}</p>
+      <p className="font-body font-300 text-[#7d5a56] text-xs italic">{item.note}</p>
     </div>
   );
 }

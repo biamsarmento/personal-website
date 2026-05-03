@@ -5,7 +5,9 @@
 :root {
   --color-blush: #f7ddd5;
   --color-rose: #d8a4af;
+  --color-rose-dark: #9e4f62;
   --color-dark: #6b403b;
+  --color-text-secondary: #7d5a56;
   --color-warm-bg: #faf8f7;
   --color-warm-mid: #f5f0ee;
   --font-display: var(--font-cormorant);

@@ -22,11 +22,10 @@ export function HeroSection() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       aria-label="Hero"
     >
-      {/* Background image placeholder — replace src with your actual hero image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1800&q=80')`,
+          backgroundImage: `url('/images/background.jpeg')`,
         }}
         role="img"
         aria-label="Hero background"
@@ -114,16 +113,6 @@ export function HeroSection() {
             {t("contact")}
           </button>
         </div>
-      </div>
-
-      {/* Scroll indicator */}
-      <div
-        className={`absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 transition-all duration-1000 ${
-          mounted ? "opacity-100" : "opacity-0"
-        }`}
-        style={{ transitionDelay: "1200ms" }}
-      >
-        <div className="w-px h-12 bg-gradient-to-b from-transparent to-[#f7ddd5]/50 animate-pulse" />
       </div>
     </section>
   );

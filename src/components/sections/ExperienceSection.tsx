@@ -42,15 +42,15 @@ export function ExperienceSection() {
                       <h3 className="font-display text-2xl font-medium text-[#6b403b]">
                         {item.company}
                       </h3>
-                      <span className="font-body text-[9px] tracking-[0.2em] uppercase text-[#d8a4af] bg-[#f7ddd5] rounded-full px-2.5 py-1">
+                      <span className="font-body text-[9px] tracking-[0.2em] uppercase text-[#9e4f62] bg-[#f7ddd5] rounded-full px-2.5 py-1">
                         {item.type}
                       </span>
                     </div>
-                    <p className="font-body font-400 text-[#6b403b]/65 text-sm tracking-wide">
+                    <p className="font-body font-400 text-[#7d5a56] text-sm tracking-wide">
                       {item.role}
                     </p>
                   </div>
-                  <p className="font-body text-[10px] tracking-[0.22em] uppercase text-[#d8a4af] shrink-0 md:text-right">
+                  <p className="font-body text-[10px] tracking-[0.22em] uppercase text-[#9e4f62] shrink-0 md:text-right">
                     {item.period}
                   </p>
                 </div>
@@ -60,7 +60,7 @@ export function ExperienceSection() {
                   {item.bullets.map((bullet, j) => (
                     <li key={j} className="flex gap-3 items-start">
                       <span className="mt-2 shrink-0 w-1 h-1 rounded-full bg-[#d8a4af]" aria-hidden="true" />
-                      <p className="font-body font-300 text-[#6b403b]/65 text-[0.9rem] leading-relaxed">
+                      <p className="font-body font-300 text-[#7d5a56] text-[0.9rem] leading-relaxed">
                         {bullet}
                       </p>
                     </li>
@@ -69,7 +69,7 @@ export function ExperienceSection() {
 
                 {/* Projects placeholder */}
                 <div className="border-t border-[#f7ddd5] pt-6">
-                  <p className="font-body text-[10px] tracking-[0.22em] uppercase text-[#d8a4af] mb-3">
+                  <p className="font-body text-[10px] tracking-[0.22em] uppercase text-[#9e4f62] mb-3">
                     {t("projectsLabel")}
                   </p>
                   {/* 
@@ -83,7 +83,7 @@ export function ExperienceSection() {
                     </div>
                   */}
                   <div className="border border-dashed border-[#d8a4af]/40 rounded-xl p-4 text-center">
-                    <p className="font-body text-xs text-[#6b403b]/35 italic">
+                    <p className="font-body text-xs text-[#7d5a56] italic">
                       {t("projectsPlaceholder")}
                     </p>
                   </div>
