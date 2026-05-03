@@ -45,7 +45,7 @@ export function HeroSection() {
           style={{ transitionDelay: "200ms" }}
         >
           <div className="h-px w-12 bg-[#f7ddd5]/60" />
-          <span className="font-body text-[10px] tracking-[0.3em] uppercase text-[#f7ddd5]/80">
+          <span className="font-body text-[14px] tracking-[0.3em] font-medium uppercase text-[#f7ddd5]/80">
             Portfolio
           </span>
           <div className="h-px w-12 bg-[#f7ddd5]/60" />
@@ -67,7 +67,7 @@ export function HeroSection() {
 
         {/* Title */}
         <p
-          className={`font-body font-200 text-[#d8a4af] mb-10 transition-all duration-1000 ${
+          className={`font-body font-200 text-[#f7ddd5] mb-10 transition-all duration-1000 ${
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
           style={{
@@ -86,7 +86,7 @@ export function HeroSection() {
             mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
           style={{
-            fontSize: "clamp(0.875rem, 1.6vw, 1.05rem)",
+            fontSize: "clamp(0.875rem, 1.6vw, 1.5rem)",
             transitionDelay: "800ms",
           }}
         >
