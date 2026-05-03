@@ -37,11 +37,7 @@ export function AboutSection() {
 
           {/* Decorative stats */}
           <div className="animate-on-scroll delay-400 mt-10 grid grid-cols-3 gap-6 pt-10 border-t border-[#f7ddd5]">
-            {[
-              { value: "3+", label: "Years\nExperience" },
-              { value: "3", label: "Countries\nStudied" },
-              { value: "4.0", label: "Exchange\nGPA" },
-            ].map(({ value, label }) => (
+            {(t.raw("stats") as Array<{ value: string; label: string }>).map(({ value, label }) => (
               <div key={value} className="text-center">
                 <p className="font-display text-3xl font-light text-[#9e4f62]">
                   {value}

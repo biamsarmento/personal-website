@@ -20,7 +20,12 @@
     "p1": "Je suis developpeuse web avec une profonde passion pour la creation d'experiences numeriques significatives. Basee a Brasilia, au Bresil, mon parcours dans la technologie a ete facon par une curiosite qui m'a menee a travers les continents — des etudes d'ingenierie a l'Universite de Brasilia aux programmes d'echange aux Etats-Unis et en France.",
     "p2": "Au Montgomery College dans le Maryland, j'ai maintenu une moyenne parfaite de 4.0, et a Telecom Physique Strasbourg en France, je me suis immergee dans l'intersection de l'ingenierie et de l'innovation. Ces experiences internationales m'ont donne non seulement une profondeur technique, mais aussi une perspective mondiale sur la facon dont la technologie peut connecter et autonomiser les gens.",
     "p3": "Je suis passionnee par la creation de solutions evolutives et centrees sur l'utilisateur — des systemes qui ne sont pas seulement fonctionnels, mais genuinement agreables a utiliser. Que ce soit en collaborant dans des equipes agiles ou en dirigeant des projets, j'apporte une combinaison de rigueur technique, de resolution creatrice de problemes et d'un engagement indefectible envers la qualite.",
-    "imageAlt": "Beatriz Sarmento"
+    "imageAlt": "Beatriz Sarmento",
+    "stats": [
+      { "value": "3+", "label": "Années\nd'Expérience" },
+      { "value": "3", "label": "Pays\nEtudiés" },
+      { "value": "4.0", "label": "GPA\nd'Échange" }
+    ]
   },
   "education": {
     "heading": "Formation",

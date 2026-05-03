@@ -20,7 +20,12 @@
     "p1": "Sou desenvolvedora web com uma profunda paixao por criar experiencias digitais significativas. Baseada em Brasilia, Brasil, minha jornada na tecnologia foi moldada por uma curiosidade que me levou por varios continentes — dos estudos de engenharia na Universidade de Brasilia a programas de intercambio nos Estados Unidos e na Franca.",
     "p2": "No Montgomery College em Maryland, mantive uma media perfeita de 4.0, e na Telecom Physique Strasbourg na Franca, me immergi na intersecao de engenharia e inovacao. Essas experiencias internacionais me deram nao apenas profundidade tecnica, mas uma perspectiva global de como a tecnologia pode conectar e empoderar pessoas.",
     "p3": "Sou apaixonada por construir solucoes escalaveis e centradas no usuario — sistemas que nao sao apenas funcionais, mas genuinamente agradaveis de usar. Seja colaborando em equipes ageis ou liderando projetos, trago uma combinacao de rigor tecnico, resolucao criativa de problemas e um compromisso inabalavel com a qualidade.",
-    "imageAlt": "Beatriz Sarmento"
+    "imageAlt": "Beatriz Sarmento",
+    "stats": [
+      { "value": "3+", "label": "Anos de\nExperiência" },
+      { "value": "3", "label": "Países\nEstudados" },
+      { "value": "4.0", "label": "GPA do\nIntercâmbio" }
+    ]
   },
   "education": {
     "heading": "Formacao",

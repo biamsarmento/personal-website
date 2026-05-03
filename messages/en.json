@@ -20,7 +20,12 @@
     "p1": "I am a web developer with a deep passion for creating meaningful digital experiences. Based in Brasilia, Brazil, my journey in technology has been shaped by a curiosity that took me across continents — from engineering studies at the University of Brasilia to exchange programs in the United States and France.",
     "p2": "At Montgomery College in Maryland, I maintained a perfect 4.0 GPA, and at Télécom Physique Strasbourg in France, I immersed myself in the intersection of engineering and innovation. These international experiences gave me not only technical depth, but a global perspective on how technology can connect and empower people.",
     "p3": "I am passionate about building scalable, user-focused solutions — systems that are not only functional but genuinely delightful to use. Whether collaborating in agile teams or leading projects, I bring a blend of technical rigor, creative problem-solving, and an unwavering commitment to quality.",
-    "imageAlt": "Beatriz Sarmento"
+    "imageAlt": "Beatriz Sarmento",
+    "stats": [
+      { "value": "3+", "label": "Years\nExperience" },
+      { "value": "3", "label": "Countries\nStudied" },
+      { "value": "4.0", "label": "Exchange\nGPA" }
+    ]
   },
   "education": {
     "heading": "Education",
