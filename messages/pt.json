@@ -64,7 +64,11 @@
     "personalProjectsHeading": "Projetos Pessoais",
     "personalProjectsType": "Pessoal",
     "personalProjectsSubtitle": "Projetos desenvolvidos fora do ambiente corporativo",
-    "personalProjectsList": [],
+    "personalProjectsList": [
+      { "name": "Quotes Newsletter", "url": "https://quotesnewsletter.com" },
+      { "name": "Oliveira Santos", "url": "https://oliveirasantosadv.com.br" },
+      { "name": "Entretido", "url": "https://entretido.com.br" }
+    ],
     "items": [
       {
         "company": "Simplify Technology",
@@ -78,7 +82,10 @@
           "Colaborou com desenvolvedores seniors para construir arquiteturas front-end escalaveis e melhorar a qualidade geral do codigo."
         ],
         "projects": [
-          { "name": "CGEE", "url": "https://www.cgee.org.br" }
+          { "name": "CGEE", "url": "https://www.cgee.org.br" },
+          { "name": "SINPOL", "url": "https://sinpoldf.com.br/web/sinpol" },
+          { "name": "ASSERJ", "url": "https://asserj.com.br/pt/" },
+          { "name": "CLASP", "url": "https://www.clasp.org.br" }
         ]
       },
       {
