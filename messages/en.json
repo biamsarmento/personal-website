@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Beatriz Sarmento",
+    "title": "Web Developer",
+    "summary": "Web Developer with 3 years of experience building responsive, high-performance web applications using modern technologies like React, Next.js, Node.js, and TypeScript.",
+    "cta": "View My Work",
+    "contact": "Get In Touch"
+  },
+  "about": {
+    "heading": "About Me",
+    "subheading": "Crafting digital experiences with purpose",
+    "p1": "I am a web developer with a deep passion for creating meaningful digital experiences. Based in Brasilia, Brazil, my journey in technology has been shaped by a curiosity that took me across continents — from engineering studies at the University of Brasilia to exchange programs in the United States and France.",
+    "p2": "At Montgomery College in Maryland, I maintained a perfect 4.0 GPA, and at Télécom Physique Strasbourg in France, I immersed myself in the intersection of engineering and innovation. These international experiences gave me not only technical depth, but a global perspective on how technology can connect and empower people.",
+    "p3": "I am passionate about building scalable, user-focused solutions — systems that are not only functional but genuinely delightful to use. Whether collaborating in agile teams or leading projects, I bring a blend of technical rigor, creative problem-solving, and an unwavering commitment to quality.",
+    "imageAlt": "Beatriz Sarmento"
+  },
+  "education": {
+    "heading": "Education",
+    "subheading": "A foundation built across cultures",
+    "items": [
+      {
+        "institution": "University of Brasilia (UnB)",
+        "degree": "B.Sc. in Network Engineering",
+        "period": "Mar 2018 — Feb 2025",
+        "note": "Honor Student",
+        "location": "Brasilia, Brazil"
+      },
+      {
+        "institution": "Montgomery College",
+        "degree": "Engineering Exchange Program",
+        "period": "Aug 2018 — May 2019",
+        "note": "GPA: 4.0",
+        "location": "Maryland, USA"
+      },
+      {
+        "institution": "Télécom Physique Strasbourg",
+        "degree": "Computer Engineering — Scholarship Exchange",
+        "period": "Sep 2023 — Jan 2024",
+        "note": "Scholarship Recipient",
+        "location": "Strasbourg, France"
+      },
+      {
+        "institution": "TripleTen",
+        "degree": "Full-Stack Web Development Bootcamp",
+        "period": "Mar 2024 — Feb 2025",
+        "note": "Multiple real-world projects using React, Node.js, and MongoDB",
+        "location": "Online"
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Experience",
+    "subheading": "Building with intention",
+    "projectsLabel": "Projects",
+    "projectsPlaceholder": "Project links coming soon",
+    "items": [
+      {
+        "company": "Simplify Technology",
+        "role": "Web Developer",
+        "period": "Apr 2025 — Present",
+        "type": "Full-time",
+        "bullets": [
+          "Designed and developed high-performance corporate portals using Liferay and React, ensuring scalability and maintainability.",
+          "Implemented responsive, user-focused interfaces, increasing user engagement across multiple products.",
+          "Supervising and currently responsible for four concurrent projects, ensuring timely delivery and high-quality standards.",
+          "Collaborated with senior developers to build scalable front-end architectures and improve overall code quality."
+        ]
+      },
+      {
+        "company": "Eldorado Research Institute",
+        "role": "Web Developer Intern",
+        "period": "Nov 2022 — Jul 2023",
+        "type": "Internship",
+        "bullets": [
+          "Supported the enhancement of enterprise websites within an Agile Scrum environment.",
+          "Contributed to the development and launch of new pages, improving site performance and user experience.",
+          "Participated in daily stand-ups and sprint reviews to maintain delivery alignment and team efficiency.",
+          "Collaborated on front-end features using modern JavaScript frameworks."
+        ]
+      },
+      {
+        "company": "Federal Court of Accounts (TCU)",
+        "role": "Tests Intern",
+        "period": "Sep 2020 — Mar 2021",
+        "type": "Internship",
+        "bullets": [
+          "Developed and maintained automated testing frameworks to streamline quality assurance processes and reduce testing time.",
+          "Supported continuous improvement of build and deployment pipelines, enhancing delivery speed and reliability.",
+          "Contributed to the testing lifecycle across multiple government systems, ensuring compliance and stability."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "subheading": "Technologies I work with",
+    "categories": {
+      "frontend": "Front-End",
+      "backend": "Back-End",
+      "tools": "Tools & DevOps",
+      "methodologies": "Methodologies",
+      "languages": "Languages"
+    }
+  },
+  "contact": {
+    "heading": "Let's Connect",
+    "subheading": "Open to new opportunities",
+    "description": "I am always excited to discuss new projects, creative ideas, or opportunities to be part of an amazing team. Feel free to reach out.",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Brasilia, Brazil",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Crafted with care"
+  }
+}

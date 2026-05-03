@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "A Propos",
+    "education": "Formation",
+    "experience": "Experience",
+    "skills": "Competences",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Beatriz Sarmento",
+    "title": "Developpeuse Web",
+    "summary": "Developpeuse Web avec 3 ans d'experience dans la creation d'applications web responsives et performantes avec des technologies modernes telles que React, Next.js, Node.js et TypeScript.",
+    "cta": "Voir Mon Travail",
+    "contact": "Me Contacter"
+  },
+  "about": {
+    "heading": "A Propos",
+    "subheading": "Creer des experiences numeriques avec intention",
+    "p1": "Je suis developpeuse web avec une profonde passion pour la creation d'experiences numeriques significatives. Basee a Brasilia, au Bresil, mon parcours dans la technologie a ete facon par une curiosite qui m'a menee a travers les continents — des etudes d'ingenierie a l'Universite de Brasilia aux programmes d'echange aux Etats-Unis et en France.",
+    "p2": "Au Montgomery College dans le Maryland, j'ai maintenu une moyenne parfaite de 4.0, et a Telecom Physique Strasbourg en France, je me suis immergee dans l'intersection de l'ingenierie et de l'innovation. Ces experiences internationales m'ont donne non seulement une profondeur technique, mais aussi une perspective mondiale sur la facon dont la technologie peut connecter et autonomiser les gens.",
+    "p3": "Je suis passionnee par la creation de solutions evolutives et centrees sur l'utilisateur — des systemes qui ne sont pas seulement fonctionnels, mais genuinement agreables a utiliser. Que ce soit en collaborant dans des equipes agiles ou en dirigeant des projets, j'apporte une combinaison de rigueur technique, de resolution creatrice de problemes et d'un engagement indefectible envers la qualite.",
+    "imageAlt": "Beatriz Sarmento"
+  },
+  "education": {
+    "heading": "Formation",
+    "subheading": "Une base construite entre les cultures",
+    "items": [
+      {
+        "institution": "Universite de Brasilia (UnB)",
+        "degree": "Licence en Ingenierie des Reseaux",
+        "period": "Mar 2018 — Fev 2025",
+        "note": "Etudiante Mention Honneur",
+        "location": "Brasilia, Bresil"
+      },
+      {
+        "institution": "Montgomery College",
+        "degree": "Programme d'echange en Ingenierie",
+        "period": "Aou 2018 — Mai 2019",
+        "note": "GPA : 4.0",
+        "location": "Maryland, Etats-Unis"
+      },
+      {
+        "institution": "Telecom Physique Strasbourg",
+        "degree": "Ingenierie Informatique — Echange Boursier",
+        "period": "Sep 2023 — Jan 2024",
+        "note": "Boursiere",
+        "location": "Strasbourg, France"
+      },
+      {
+        "institution": "TripleTen",
+        "degree": "Bootcamp de Developpement Web Full-Stack",
+        "period": "Mar 2024 — Fev 2025",
+        "note": "Plusieurs projets reels avec React, Node.js et MongoDB",
+        "location": "En ligne"
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Experience",
+    "subheading": "Construire avec intention",
+    "projectsLabel": "Projets",
+    "projectsPlaceholder": "Liens des projets a venir",
+    "items": [
+      {
+        "company": "Simplify Technology",
+        "role": "Developpeuse Web",
+        "period": "Avr 2025 — Present",
+        "type": "Temps Plein",
+        "bullets": [
+          "Concu et developpe des portails d'entreprise haute performance avec Liferay et React, garantissant evolutivite et maintenabilite.",
+          "Mis en oeuvre des interfaces responsives centrees sur l'utilisateur, augmentant l'engagement sur plusieurs produits.",
+          "Supervise et responsable de quatre projets simultanes, assurant une livraison dans les delais et des standards de haute qualite.",
+          "Collabore avec des developpeurs seniors pour construire des architectures front-end evolutives et ameliorer la qualite du code."
+        ]
+      },
+      {
+        "company": "Institut de Recherche Eldorado",
+        "role": "Stagiaire Developpeuse Web",
+        "period": "Nov 2022 — Juil 2023",
+        "type": "Stage",
+        "bullets": [
+          "Soutenu l'amelioration de sites web d'entreprise dans un environnement Agile Scrum.",
+          "Contribue au developpement et au lancement de nouvelles pages, ameliorant la performance et l'experience utilisateur.",
+          "Participe aux daily stand-ups et aux sprint reviews pour maintenir l'alignement des livraisons.",
+          "Collabore sur des fonctionnalites front-end en utilisant des frameworks JavaScript modernes."
+        ]
+      },
+      {
+        "company": "Cour des Comptes Federale (TCU)",
+        "role": "Stagiaire en Tests",
+        "period": "Sep 2020 — Mar 2021",
+        "type": "Stage",
+        "bullets": [
+          "Developpe et maintenu des frameworks de tests automatises pour optimiser les processus d'assurance qualite.",
+          "Soutenu l'amelioration continue des pipelines de build et deployment, augmentant la vitesse et la fiabilite des livraisons.",
+          "Contribue au cycle de tests sur plusieurs systemes gouvernementaux, assurant conformite et stabilite."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Competences",
+    "subheading": "Technologies avec lesquelles je travaille",
+    "categories": {
+      "frontend": "Front-End",
+      "backend": "Back-End",
+      "tools": "Outils & DevOps",
+      "methodologies": "Methodologies",
+      "languages": "Langues"
+    }
+  },
+  "contact": {
+    "heading": "Connectons-nous",
+    "subheading": "Ouverte aux nouvelles opportunites",
+    "description": "Je suis toujours ravie de discuter de nouveaux projets, d'idees creatives ou d'opportunites de rejoindre une equipe formidable. N'hesitez pas a me contacter.",
+    "email": "E-mail",
+    "location": "Localisation",
+    "locationValue": "Brasilia, Bresil",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "Tous droits reserves.",
+    "madeWith": "Cree avec soin"
+  }
+}
