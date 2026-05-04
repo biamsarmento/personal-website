@@ -14,6 +14,16 @@
   --font-body: var(--font-jost);
 }
 
+html.dark {
+  --color-blush: #f0dbd5;
+  --color-rose: #d8a4af;
+  --color-rose-dark: #e8b4be;
+  --color-dark: #f0dbd5;
+  --color-text-secondary: #c9a0ac;
+  --color-warm-bg: #1a0f13;
+  --color-warm-mid: #2a1820;
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -5,7 +5,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#6b403b] text-[#f7ddd5]/70">
+    <footer className="bg-[#6b403b] dark:bg-[#120b0e] text-[#f7ddd5]/70">
       <div className="max-w-6xl mx-auto px-6 lg:px-8 py-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-display text-2xl font-light tracking-widest text-[#f7ddd5]/90">

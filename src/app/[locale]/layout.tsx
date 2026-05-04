@@ -4,7 +4,10 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { ThemeProvider } from "@/lib/ThemeProvider";
 import "../globals.css";
+
+const themeScript = `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark')}}catch(e){}})();`;
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -55,9 +58,14 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${cormorant.variable} ${jost.variable}`}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body className="antialiased">
         <NextIntlClientProvider messages={messages}>
-          {children}
+          <ThemeProvider>
+            {children}
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

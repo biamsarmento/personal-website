@@ -40,29 +40,29 @@ const categoryColors: Record<
   { bg: string; text: string; border: string }
 > = {
   frontend: {
-    bg: "bg-[#f7ddd5]/80",
-    text: "text-[#6b403b]",
+    bg: "bg-[#f7ddd5]/80 dark:bg-[#d8a4af]/10",
+    text: "text-[#6b403b] dark:text-[#f0dbd5]",
     border: "border-[#d8a4af]/30",
   },
   backend: {
-    bg: "bg-[#ede4e1]/70",
-    text: "text-[#6b403b]",
+    bg: "bg-[#ede4e1]/70 dark:bg-[#2a1820]",
+    text: "text-[#6b403b] dark:text-[#f0dbd5]",
     border: "border-[#d8a4af]/25",
   },
   tools: {
-    bg: "bg-white",
-    text: "text-[#6b403b]",
+    bg: "bg-white dark:bg-[#2a1820]",
+    text: "text-[#6b403b] dark:text-[#f0dbd5]",
     border: "border-[#d8a4af]/40",
   },
   methodologies: {
-    bg: "bg-[#d8a4af]/15",
-    text: "text-[#6b403b]",
+    bg: "bg-[#d8a4af]/15 dark:bg-[#d8a4af]/10",
+    text: "text-[#6b403b] dark:text-[#f0dbd5]",
     border: "border-[#d8a4af]/30",
   },
   languages: {
-    bg: "bg-[#6b403b]/8",
-    text: "text-[#6b403b]",
-    border: "border-[#6b403b]/20",
+    bg: "bg-[#6b403b]/8 dark:bg-[#f0dbd5]/5",
+    text: "text-[#6b403b] dark:text-[#f0dbd5]",
+    border: "border-[#6b403b]/20 dark:border-[#f0dbd5]/15",
   },
 };
 
@@ -89,7 +89,7 @@ export function SkillsSection() {
   const ref = useScrollReveal<HTMLDivElement>();
 
   return (
-    <SectionWrapper id="skills" className="bg-[#faf8f7]">
+    <SectionWrapper id="skills" className="bg-[#faf8f7] dark:bg-[#1f1418]">
       <div ref={ref}>
         <div className="animate-on-scroll">
           <SectionHeading
@@ -106,10 +106,10 @@ export function SkillsSection() {
               className={`animate-on-scroll delay-${(i + 1) * 100}`}
             >
               <div className="flex items-center gap-4 mb-4">
-                <h3 className="font-body text-[14px] tracking-[0.25em] uppercase text-[#9e4f62] shrink-0">
+                <h3 className="font-body text-[14px] tracking-[0.25em] uppercase text-[#9e4f62] dark:text-[#e8b4be] shrink-0">
                   {catT(category)}
                 </h3>
-                <div className="h-px flex-1 bg-[#f7ddd5]" />
+                <div className="h-px flex-1 bg-[#f7ddd5] dark:bg-[#d8a4af]/20" />
               </div>
               <div
                 className="flex flex-wrap gap-2.5"
