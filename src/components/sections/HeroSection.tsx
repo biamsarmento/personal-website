@@ -32,8 +32,8 @@ export function HeroSection() {
       />
 
       {/* Elegant overlay — warm gradient from bottom */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#6b403b]/30 via-[#6b403b]/20 to-[#6b403b]/70" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#6b403b]/20 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#6b403b]/30 via-[#6b403b]/20 to-[#6b403b]/70 dark:from-[#120b0e]/60 dark:via-[#120b0e]/50 dark:to-[#120b0e]/90" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#6b403b]/20 via-transparent to-transparent dark:from-[#120b0e]/40" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
