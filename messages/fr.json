@@ -77,11 +77,7 @@
         "url": "https://oliveirasantosadv.com.br",
         "comingSoon": true
       },
-      {
-        "name": "Entretido",
-        "url": "https://entretido.com.br",
-        "comingSoon": true
-      }
+      { "name": "Entretido", "url": "https://entretido.com.br" }
     ],
     "items": [
       {
