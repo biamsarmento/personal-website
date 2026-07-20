@@ -36,7 +36,11 @@
         "degree": "B.Sc. in Network Engineering",
         "period": "Mar 2018 — Feb 2025",
         "note": "Honor Student",
-        "location": "Brasilia, Brazil"
+        "location": "Brasilia, Brazil",
+        "links": [
+          { "label": "Download Thesis (PDF)", "url": "/documents/tcc-beatriz-sarmento.pdf" },
+          { "label": "Dataset on Kaggle", "url": "https://www.kaggle.com/datasets/beatrizmsarmento/relatos-de-consumidores-do-site-consumidor-gov-br" }
+        ]
       },
       {
         "institution": "Montgomery College",

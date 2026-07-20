@@ -36,7 +36,11 @@
         "degree": "Bacharelado em Engenharia de Redes",
         "period": "Mar 2018 — Fev 2025",
         "note": "Estudante Honors",
-        "location": "Brasilia, Brasil"
+        "location": "Brasilia, Brasil",
+        "links": [
+          { "label": "Baixar TCC (PDF)", "url": "/documents/tcc-beatriz-sarmento.pdf" },
+          { "label": "Base de dados no Kaggle", "url": "https://www.kaggle.com/datasets/beatrizmsarmento/relatos-de-consumidores-do-site-consumidor-gov-br" }
+        ]
       },
       {
         "institution": "Montgomery College",

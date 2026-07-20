@@ -21,6 +21,7 @@ export function EducationSection() {
     period: string;
     note: string;
     location: string;
+    links?: Array<{ label: string; url: string }>;
   }>;
 
   return (
@@ -86,6 +87,7 @@ function EducationCard({
     period: string;
     note: string;
     location: string;
+    links?: Array<{ label: string; url: string }>;
   };
   flagCode: string;
 }) {
@@ -110,6 +112,21 @@ function EducationCard({
       <p className="font-body font-300 text-[#7d5a56] dark:text-[#c9a0ac] text-xs italic">
         {item.note}
       </p>
+      {item.links && item.links.length > 0 && (
+        <div className="flex flex-wrap gap-2 mt-4">
+          {item.links.map((link) => (
+            <a
+              key={link.url}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-body text-xs text-[#6b403b] dark:text-[#f0dbd5] border border-[#d8a4af]/40 rounded-full px-3 py-1.5 transition-all duration-200 hover:bg-[#f7ddd5] dark:hover:bg-[#d8a4af]/10 hover:border-[#d8a4af]"
+            >
+              {link.label} →
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

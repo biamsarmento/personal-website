@@ -36,7 +36,11 @@
         "degree": "Licence en Ingenierie des Reseaux",
         "period": "Mar 2018 — Fev 2025",
         "note": "Etudiante Mention Honneur",
-        "location": "Brasilia, Bresil"
+        "location": "Brasilia, Bresil",
+        "links": [
+          { "label": "Telecharger le memoire (PDF)", "url": "/documents/tcc-beatriz-sarmento.pdf" },
+          { "label": "Jeu de donnees sur Kaggle", "url": "https://www.kaggle.com/datasets/beatrizmsarmento/relatos-de-consumidores-do-site-consumidor-gov-br" }
+        ]
       },
       {
         "institution": "Montgomery College",
