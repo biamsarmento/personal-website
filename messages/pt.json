@@ -78,7 +78,8 @@
       { "name": "Quotes Newsletter", "url": "https://quotesnewsletter.com" },
       { "name": "Oliveira Santos Adv", "url": "https://oliveirasantos.online" },
       { "name": "Entretido", "url": "https://entretido.com.br" },
-      { "name": "LMS - Consultoria em Gestão e Saúde", "url": "https://lilhammartins.com.br", "comingSoon": true }
+      { "name": "LMS - Consultoria em Gestão e Saúde", "url": "https://lilhammartins.com.br", "comingSoon": true },
+      { "name": "Comunidade Sangue Bom", "url": "", "comingSoon": true }
     ],
     "items": [
       {
