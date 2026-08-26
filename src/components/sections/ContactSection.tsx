@@ -53,6 +53,17 @@ export function ContactSection() {
         </svg>
       ),
     },
+    {
+      label: t("whatsapp"),
+      value: "+55 61 99879-3939",
+      href: `https://wa.me/5561998793939?text=${encodeURIComponent(t("whatsappMessage"))}`,
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <path d="M9 1.5C4.858 1.5 1.5 4.858 1.5 9C1.5 10.42 1.887 11.75 2.561 12.892L1.5 16.5L5.226 15.478C6.323 16.081 7.62 16.5 9 16.5C13.142 16.5 16.5 13.142 16.5 9C16.5 4.858 13.142 1.5 9 1.5Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
+          <path d="M6.3 5.7C6.45 5.4 6.6 5.4 6.75 5.4C6.87 5.4 6.99 5.4 7.095 5.406C7.2 5.412 7.35 5.37 7.5 5.73C7.65 6.09 8.01 6.99 8.055 7.08C8.1 7.17 8.13 7.275 8.07 7.395C8.01 7.515 7.98 7.59 7.89 7.695C7.8 7.8 7.7 7.929 7.62 8.01C7.53 8.1 7.436 8.199 7.542 8.379C7.647 8.559 8.01 9.153 8.549 9.633C9.242 10.251 9.827 10.44 10.007 10.53C10.187 10.62 10.292 10.605 10.397 10.485C10.502 10.365 10.847 9.96 10.967 9.78C11.087 9.6 11.207 9.63 11.372 9.69C11.537 9.75 12.437 10.194 12.617 10.284C12.797 10.374 12.917 10.419 12.962 10.494C13.007 10.569 13.007 10.923 12.86 11.334C12.712 11.745 12.005 12.135 11.677 12.183C11.383 12.226 11.017 12.243 10.616 12.116C10.372 12.038 10.058 11.934 9.657 11.763C7.994 11.05 6.909 9.383 6.826 9.273C6.743 9.163 6.15 8.38 6.15 7.57C6.15 6.76 6.573 6.362 6.72 6.194" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      ),
+    },
   ];
 
   return (
@@ -77,7 +88,7 @@ export function ContactSection() {
           </p>
         </div>
 
-        <div className="animate-on-scroll delay-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="animate-on-scroll delay-200 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {contactItems.map((item, i) => (
             <div key={i} className="group">
               {item.href ? (

@@ -149,7 +149,9 @@
     "location": "Localizacao",
     "locationValue": "Brasilia, Brasil",
     "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "github": "GitHub",
+    "whatsapp": "WhatsApp",
+    "whatsappMessage": "Olá! Gostaria de saber mais sobre o seu trabalho."
   },
   "footer": {
     "rights": "Todos os direitos reservados.",

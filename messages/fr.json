@@ -149,7 +149,9 @@
     "location": "Localisation",
     "locationValue": "Brasilia, Bresil",
     "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "github": "GitHub",
+    "whatsapp": "WhatsApp",
+    "whatsappMessage": "Bonjour ! J'aimerais en savoir plus sur votre travail."
   },
   "footer": {
     "rights": "Tous droits reserves.",
