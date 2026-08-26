@@ -47,7 +47,7 @@ export function ExperienceSection() {
                 {/* Header */}
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                   <div>
-                    <div className="flex items-center gap-3 mb-1.5">
+                    <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 mb-1.5">
                       <h3 className="font-display text-2xl font-medium text-[#6b403b] dark:text-[#f0dbd5]">
                         {item.url ? (
                           <a href={item.url} target="_blank" rel="noopener noreferrer" className="hover:text-[#9e4f62] dark:hover:text-[#e8b4be] transition-colors duration-200">
@@ -55,7 +55,7 @@ export function ExperienceSection() {
                           </a>
                         ) : item.company}
                       </h3>
-                      <span className="font-body text-[9px] tracking-[0.2em] uppercase text-[#9e4f62] dark:text-[#e8b4be] bg-[#f7ddd5] dark:bg-[#d8a4af]/15 rounded-full px-2.5 py-1">
+                      <span className="font-body text-[9px] tracking-[0.2em] uppercase text-[#9e4f62] dark:text-[#e8b4be] bg-[#f7ddd5] dark:bg-[#d8a4af]/15 rounded-full px-2.5 py-1 shrink-0 whitespace-nowrap text-center">
                         {item.type}
                       </span>
                     </div>
@@ -90,7 +90,7 @@ export function ExperienceSection() {
                       {t("projectsLabel")}
                     </p>
                     {item.projects && item.projects.length > 0 ? (
-                      <div className="flex flex-wrap gap-3">
+                      <div className="flex flex-wrap gap-x-3 gap-y-5">
                         {item.projects.map((project) => (
                           <div key={project.name} className="relative">
                             <a
@@ -127,11 +127,11 @@ export function ExperienceSection() {
             <div className="bg-[#faf8f7] dark:bg-[#2a1820] rounded-2xl p-8 md:p-10 border border-[#f5f0ee] dark:border-[#d8a4af]/15 hover:border-[#d8a4af]/40 transition-all duration-300 hover:shadow-xl hover:shadow-[#d8a4af]/10">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                 <div>
-                  <div className="flex items-center gap-3 mb-1.5">
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 mb-1.5">
                     <h3 className="font-display text-2xl font-medium text-[#6b403b] dark:text-[#f0dbd5]">
                       {t("personalProjectsHeading")}
                     </h3>
-                    <span className="font-body text-[9px] tracking-[0.2em] uppercase text-[#9e4f62] dark:text-[#e8b4be] bg-[#f7ddd5] dark:bg-[#d8a4af]/15 rounded-full px-2.5 py-1">
+                    <span className="font-body text-[9px] tracking-[0.2em] uppercase text-[#9e4f62] dark:text-[#e8b4be] bg-[#f7ddd5] dark:bg-[#d8a4af]/15 rounded-full px-2.5 py-1 shrink-0 whitespace-nowrap text-center">
                       {t("personalProjectsType")}
                     </span>
                   </div>
@@ -142,7 +142,7 @@ export function ExperienceSection() {
               </div>
 
               {personalProjects.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-5">
                   {personalProjects.map((project) => (
                     <div key={project.name} className="relative">
                       <a
