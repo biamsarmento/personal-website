@@ -78,8 +78,11 @@
       { "name": "Quotes Newsletter", "url": "https://quotesnewsletter.com" },
       { "name": "Oliveira Santos Adv", "url": "https://oliveirasantos.online" },
       { "name": "Entretido", "url": "https://entretido.com.br" },
-      { "name": "LMS - Consultoria em Gestão e Saúde", "url": "https://lilhammartins.com.br", "comingSoon": true },
-      { "name": "Comunidade Sangue Bom", "url": "https://www.comunidadesanguebom.com.br" }
+      { "name": "LMS - Consultoria em Gestão e Saúde", "url": "https://lilhammartins.com.br" },
+      { "name": "Comunidade Sangue Bom", "url": "https://www.comunidadesanguebom.com.br" },
+      { "name": "AHCI", "url": "https://ahcidf.org.br/" },
+      { "name": "AMIGO", "url": "https://hemodinamica-go.org.br/" },
+      { "name": "AMEVGO", "url": "https://amevgo.org.br/" }
     ],
     "items": [
       {
@@ -100,7 +103,8 @@
           { "name": "ASSERJ", "url": "https://asserj.com.br/pt/" },
           { "name": "CLASP", "url": "https://www.clasp.org.br" },
           { "name": "Sinpol DF - App (App Store)", "url": "https://apps.apple.com/br/app/sinpol-df-app/id6798305449?l=en-GB" },
-          { "name": "Sinpol DF - App (Google Play)", "url": "https://play.google.com/store/apps/details?id=br.com.sinpoldf.app&hl=pt_BR" }
+          { "name": "Sinpol DF - App (Google Play)", "url": "https://play.google.com/store/apps/details?id=br.com.sinpoldf.app&hl=pt_BR" },
+          { "name": "Assessoria Parlamentar", "url": "https://assessoria-parlamentar-sigma.vercel.app" }
         ]
       },
       {
