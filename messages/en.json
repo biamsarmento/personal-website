@@ -80,9 +80,9 @@
       { "name": "Entretido", "url": "https://entretido.com.br" },
       { "name": "LMS - Consultoria em Gestão e Saúde", "url": "https://lilhammartins.com.br" },
       { "name": "Comunidade Sangue Bom", "url": "https://www.comunidadesanguebom.com.br" },
-      { "name": "AHCI", "url": "https://ahcidf.org.br/" },
-      { "name": "AMIGO", "url": "https://hemodinamica-go.org.br/" },
-      { "name": "AMEVGO", "url": "https://amevgo.org.br/" }
+      { "name": "Associação dos Hemodinamicistas e Cardiologistas Intervencionistas do Distrito Federal", "url": "https://ahcidf.org.br/" },
+      { "name": "Associação de Médicos Intervencionistas de Goiás", "url": "https://hemodinamica-go.org.br/" },
+      { "name": "Associação de Médicos Endovasculares de Goiás", "url": "https://amevgo.org.br/" }
     ],
     "items": [
       {
